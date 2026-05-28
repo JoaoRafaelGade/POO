@@ -11,7 +11,7 @@ private:
     string role_;
 
 public:
-
+  
     Employee(
         const string& name,
         const string& role
@@ -22,10 +22,7 @@ public:
     string get_name() const;
     string get_role() const;
 
-    // Método para exibir informações do funcionário
     void show_employee_info() const;
-
-    // Método com lógica real
     void repair_computer() const;
 };
 

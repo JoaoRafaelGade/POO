@@ -1,4 +1,4 @@
-#include "Computer.hpp"
+#include "computer.hpp"
 
 #include <iostream>
 

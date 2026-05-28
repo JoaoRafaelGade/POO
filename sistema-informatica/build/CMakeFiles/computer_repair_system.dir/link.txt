@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=address,undefined CMakeFiles/computer_repair_system.dir/src/main.cpp.o CMakeFiles/computer_repair_system.dir/src/client.cpp.o CMakeFiles/computer_repair_system.dir/src/computer.cpp.o CMakeFiles/computer_repair_system.dir/src/employee.cpp.o CMakeFiles/computer_repair_system.dir/src/diagnosis.cpp.o -o computer_repair_system 

@@ -1,4 +1,4 @@
-#include "Diagnosis.hpp"
+#include "diagnosis.hpp"
 
 #include <iostream>
 
@@ -8,7 +8,7 @@ Diagnosis::Diagnosis(
     const string& problem,
     double repair_cost,
     const Computer& computer,
-    Employee* employee
+    shared_ptr<Employee> employee
 )
     : problem_(problem),
       repair_cost_(repair_cost),

@@ -1,0 +1,3 @@
+/workspaces/POO/sistema-informatica/build/CMakeFiles/computer_repair_system.dir
+/workspaces/POO/sistema-informatica/build/CMakeFiles/edit_cache.dir
+/workspaces/POO/sistema-informatica/build/CMakeFiles/rebuild_cache.dir

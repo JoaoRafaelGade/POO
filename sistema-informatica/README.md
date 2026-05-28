@@ -71,3 +71,7 @@ A classe `Diagnosis` possui uma relação de composição com `Computer`, pois o
 A classe `Diagnosis` possui uma relação de agregação com `Employee`, pois o funcionário responsável existe independentemente do diagnóstico.
 
 A classe `Client` possui uma relação de agregação com `Computer`, pois o cliente apenas referencia computadores que existem independentemente dele.
+
+## Smart Pointers
+
+O projeto utiliza `shared_ptr<Employee>` na relação entre `Diagnosis` e `Employee`, pois um funcionário pode estar associado a múltiplos diagnósticos simultaneamente.
